@@ -1,5 +1,6 @@
 import { CardAbout } from "../components/cardAbout"
 import { About } from "../components/about"
+import { Skills } from "../components/skills"
 
 
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
                     <CardAbout />
                     <div className="w-full max-w-[569px]">
                         <About/>
+                        <Skills/>
                     </div>
                 </div>
 

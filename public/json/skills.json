@@ -1,0 +1,6 @@
+[
+    {"id": 1, "item": "html", "icon": "./src/assets/svg/html.svg", "alt": "Icon Html", "barr": "85%"},
+    {"id": 2, "item": "html", "icon": "./src/assets/svg/html.svg", "alt": "Icon Html", "barr": "100%"},
+    {"id": 3, "item": "html", "icon": "./src/assets/svg/html.svg", "alt": "Icon Html", "barr": "70%"},
+    {"id": 4, "item": "html", "icon": "./src/assets/svg/html.svg", "alt": "Icon Html", "barr": "60%"}
+]

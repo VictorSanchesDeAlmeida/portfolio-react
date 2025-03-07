@@ -50,3 +50,8 @@
     font-display: swap;
     src: url(./assets/fonts/Lekton-Regular.ttf);
 }
+
+
+html, body{
+    scroll-behavior: smooth;
+}
