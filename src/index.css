@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+    --primary-color: #161616;
+    --text-primary-color: white;
+
+
+    --text-color-card: #F8D600;
+
+    --bg-card-color: #ffffff;
+}
+
+[data-theme="light"] {
+    --primary-color: white;
+    --text-primary-color: #475467;
+
+    --text-color-card: #C93795;
+
+
+    --bg-card-color: #24FF00;
+}
+
+@theme inline {
+    --bg-color: var(--primary-color);
+    --text-color-primary: var(--text-primary-color);
+
+    --card-text: var(--text-color-card);
+
+    --text-color-second: #25b81d;
+
+    --color-shadow-primary: #25b81d; 
+
+    --color-card: var(--bg-card-color);
+
+    --font-lekton: "Lekton";
+}
+
+@font-face {
+    font-family: Lekton;
+    font-style: normal;
+    font-weight: 600 700;
+    font-display: swap;
+    src: url(./assets/fonts/Lekton-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lekton;
+    font-style: normal;
+    font-weight: 400 500;
+    font-display: swap;
+    src: url(./assets/fonts/Lekton-Regular.ttf);
+}
